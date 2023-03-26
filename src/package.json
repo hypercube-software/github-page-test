@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "clean": "rimraf -g ../docs/*",
+    "build": "copyfiles -E -V -a -f \"./docs/*\" ../docs"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "docsify-cli": "^4.4.4",
+    "rimraf": "^4.4.1"
+  }
+}
