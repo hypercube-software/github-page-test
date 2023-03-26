@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "clean": "rimraf -g ../docs/*",
+    "clean": "rimraf -g ../docs/* ../docs/.*",
     "build": "copyfiles -E -V -a -f \"./docs/*\" ../docs"
   },
   "devDependencies": {
